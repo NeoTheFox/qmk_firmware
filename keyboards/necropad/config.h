@@ -32,8 +32,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_ROWS 5
 #define MATRIX_COLS 4
 
-#define MATRIX_COL_PINS { PD3, PD2, PD4, PC6 }
-#define MATRIX_ROW_PINS { PD7, PE6, PB4, PB5, PB6 }
+#define MATRIX_COL_PINS { D3, D2, D4, C6 }
+#define MATRIX_ROW_PINS { D7, E6, B4, B5, B6 }
 #define UNUSED_PINS
 
 /* ws2812 RGB LED */
@@ -42,7 +42,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGBLED_NUM 0    // Number of LEDs
 
 /* COL2ROW or ROW2COL */
-#define DIODE_DIRECTION ROW2COL
+#define DIODE_DIRECTION COL2ROW
 
 
 #endif

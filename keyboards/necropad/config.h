@@ -36,6 +36,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_ROW_PINS { D7, E6, B4, B5, B6 }
 #define UNUSED_PINS
 
+/* encoder */
+#define ENCODERS_PAD_A { F5 }
+#define ENCODERS_PAD_B { F4 }
+
 /* ws2812 RGB LED */
 //#define RGB_DI_PIN D1
 

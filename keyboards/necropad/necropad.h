@@ -18,4 +18,6 @@
     { k40, k41, KC_NO, KC_NO,} \
 } 
 
+oled_rotation_t oled_init_user(oled_rotation_t rotation);
+
 #endif
